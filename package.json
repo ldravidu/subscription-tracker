@@ -4,9 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "build": "npm run build"
+    "start": "NODE_ENV=production node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "@arcjet/node": "^1.0.0-beta.4",
